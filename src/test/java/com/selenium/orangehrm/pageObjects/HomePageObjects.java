@@ -12,7 +12,7 @@ import com.selenium.util.TestListeners;
 public class HomePageObjects {
 	WebDriver driver;
 	
-	// Added comments
+	// Added comments testing
 	
 	@FindBy(xpath="//b[normalize-space()='Admin']")
 	WebElement menu_Admin;
