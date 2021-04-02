@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="32927" started-at="2021-02-17T03:29:37Z" finished-at="2021-02-17T03:30:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="32927" started-at="2021-02-17T03:29:37Z" finished-at="2021-02-17T03:30:10Z">
+      <class name="com.selenium.orangehrm.TestCase.TestCaseTwo">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="beforeMethod" is-config="true" duration-ms="7107" started-at="2021-02-17T08:59:38Z" finished-at="2021-02-17T08:59:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="hrmLogin(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="hrmLogin" duration-ms="1779" started-at="2021-02-17T08:59:45Z" data-provider="loginDataInV" finished-at="2021-02-17T08:59:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrmLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="closeBrowser" is-config="true" duration-ms="397" started-at="2021-02-17T08:59:47Z" finished-at="2021-02-17T08:59:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="beforeMethod" is-config="true" duration-ms="5935" started-at="2021-02-17T08:59:48Z" finished-at="2021-02-17T08:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="hrmLogin(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="hrmLogin" duration-ms="2748" started-at="2021-02-17T08:59:54Z" data-provider="loginDataInV" finished-at="2021-02-17T08:59:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrmLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="closeBrowser" is-config="true" duration-ms="1143" started-at="2021-02-17T08:59:56Z" finished-at="2021-02-17T08:59:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="beforeMethod" is-config="true" duration-ms="8045" started-at="2021-02-17T08:59:57Z" finished-at="2021-02-17T09:00:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="hrmLogin(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="hrmLogin" duration-ms="4340" started-at="2021-02-17T09:00:05Z" data-provider="loginDataInV" finished-at="2021-02-17T09:00:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hrmLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.selenium.orangehrm.TestCase.TestCaseTwo@6093dd95]" name="closeBrowser" is-config="true" duration-ms="381" started-at="2021-02-17T09:00:10Z" finished-at="2021-02-17T09:00:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.selenium.orangehrm.TestCase.TestCaseTwo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
