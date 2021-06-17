@@ -15,17 +15,22 @@ public class TestBase {
 
 	public WebDriver driver;
 
+	//This is for Beformethod will launch the bt=rowser and load the URL
 	@BeforeMethod
 	public void beforeMethod() {
 		launchBrowser(browser);
 		driver.get(URL);
+		
+		
 	}
 
+	//This method will close the browser
 	@AfterMethod
 	public void closeBrowser() {
 		driver.close();
 	}
-
+	
+	//This is the core method for launching the browser
 	public void launchBrowser(String browser) {
 
 		if (browser.equalsIgnoreCase("chrome")) {
